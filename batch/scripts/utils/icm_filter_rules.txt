@@ -1,0 +1,4 @@
+# ICM Rewrite Rules for NWA (restrict access to local host)
+#if %{REMOTE_ADDR} !stricmp 127.0.0.1 [AND]
+#if %{REMOTE_ADDR} !stricmp ::1
+#RegIRedirectUrl ^/webdynpro/resources/sap.com/tc~lm~itsam~ui~mainframe~wd/.*$ /nwa/remote_access_error [QSA]

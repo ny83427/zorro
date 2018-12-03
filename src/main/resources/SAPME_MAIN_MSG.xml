@@ -1,0 +1,350 @@
+<content>
+	<root>
+		<DBCONFIG>
+			<VENDOR>DDD</VENDOR>
+			<VERSION>11.2</VERSION>
+			<DRIVERNAME />
+		</DBCONFIG>
+		<DB_Parameters>
+			<DbVendor>SQLSERVER</DbVendor>
+			<DbVersion />
+			<WIP_PARA>
+				<WIPUSR>MFG_ME_WIP</WIPUSR>
+				<WIPHOST>localhost</WIPHOST>
+				<WIPPWD>MFG123456</WIPPWD>
+				<WIPPORT>1433</WIPPORT>
+				<WIPSID />
+				<URL>jdbc:sqlserver://localhost:1433</URL>
+				<WIPDATABASE>MFG_ME_WIP</WIPDATABASE>
+				<INSTANCE />
+				<SAPMEWIP_Return>
+					<String>FAILED</String>
+					<String>java.lang.IllegalArgumentException: MBean not found for
+						the Data Source [wipPool].&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.getDataSourceMBean(DataSourceService.java:443)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDatasourceDetails(DataSourceService.java:727)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDataSourceInfo(DataSourceService.java:534)&#13;
+						at sun.reflect.NativeMethodAccessorImpl.invoke0(Native
+						Method)&#13;
+						at
+						sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+						at
+						sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+						at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaMethodExecuter.invoke(JavaMethodExecuter.java:259)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaServiceExecuter.executeService(JavaServiceExecuter.java:86)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.broker.BrokerServiceExecuter.executeService(BrokerServiceExecuter.java:59)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.executor.CULServiceExecutor.executeService(CULServiceExecutor.java:36)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.process.InvokeServiceControllerDefault.execute(InvokeServiceControllerDefault.java:133)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessExecuter.run(ProcessExecuter.java:156)&#13;
+						at java.lang.Thread.run(Thread.java:763)&#13;</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String>MFG_ME_WIP</String>
+					<String>MFG123456</String>
+					<String />
+					<String>MFG_ME_WIP</String>
+					<String>localhost</String>
+					<String>1433</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</SAPMEWIP_Return>
+			</WIP_PARA>
+			<ODS_PARA>
+				<ODSUSR>MFG_ME_ODS</ODSUSR>
+				<ODSHOST>localhost</ODSHOST>
+				<ODSPORT>1433</ODSPORT>
+				<ODSPWD>MFG123456</ODSPWD>
+				<ODSSID />
+				<GODSUSR />
+				<GODSHOST />
+				<GODSPORT />
+				<GODSPWD />
+				<GODSSID />
+				<CHECKBOX_GODS>false</CHECKBOX_GODS>
+				<URL>jdbc:sqlserver://localhost:1433</URL>
+				<ODSDATABASE>MFG_ME_ODS</ODSDATABASE>
+				<INSTANCE />
+				<SAPMEODS_Return>
+					<String>FAILED</String>
+					<String>java.lang.IllegalArgumentException: MBean not found for
+						the Data Source [odsPool].&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.getDataSourceMBean(DataSourceService.java:443)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDatasourceDetails(DataSourceService.java:727)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDataSourceInfo(DataSourceService.java:534)&#13;
+						at sun.reflect.NativeMethodAccessorImpl.invoke0(Native
+						Method)&#13;
+						at
+						sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+						at
+						sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+						at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaMethodExecuter.invoke(JavaMethodExecuter.java:259)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaServiceExecuter.executeService(JavaServiceExecuter.java:86)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.broker.BrokerServiceExecuter.executeService(BrokerServiceExecuter.java:59)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.executor.CULServiceExecutor.executeService(CULServiceExecutor.java:36)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.process.InvokeServiceControllerDefault.execute(InvokeServiceControllerDefault.java:133)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessExecuter.run(ProcessExecuter.java:156)&#13;
+						at java.lang.Thread.run(Thread.java:763)&#13;</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String>MFG_ME_ODS</String>
+					<String>MFG123456</String>
+					<String />
+					<String>MFG_ME_ODS</String>
+					<String>localhost</String>
+					<String>1433</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</SAPMEODS_Return>
+			</ODS_PARA>
+			<DriverName>VMJDBC</DriverName>
+			<GODS_PARA>
+				<GODSUSR />
+				<GODSHOST />
+				<GODSPORT />
+				<GODSPWD />
+				<GODSSID />
+				<URL />
+				<GODSDATABASE />
+				<INSTANCE />
+				<GODS_Return>
+					<String>FAILED</String>
+					<String>java.lang.IllegalArgumentException: MBean not found for
+						the Data Source [godsPool].&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.getDataSourceMBean(DataSourceService.java:443)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDatasourceDetails(DataSourceService.java:727)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDataSourceInfo(DataSourceService.java:534)&#13;
+						at sun.reflect.NativeMethodAccessorImpl.invoke0(Native
+						Method)&#13;
+						at
+						sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+						at
+						sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+						at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaMethodExecuter.invoke(JavaMethodExecuter.java:259)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaServiceExecuter.executeService(JavaServiceExecuter.java:86)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.broker.BrokerServiceExecuter.executeService(BrokerServiceExecuter.java:59)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.executor.CULServiceExecutor.executeService(CULServiceExecutor.java:36)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.process.InvokeServiceControllerDefault.execute(InvokeServiceControllerDefault.java:133)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessExecuter.run(ProcessExecuter.java:156)&#13;
+						at java.lang.Thread.run(Thread.java:763)&#13;</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</GODS_Return>
+			</GODS_PARA>
+			<JDBCDriver_Return>
+				<String>WARNING</String>
+				<String>MBean not found for the JDBC driver [VMJDBC]. Driver may
+					not exist.</String>
+				<String />
+				<String>UNKNOWN</String>
+				<String>UNKNOWN</String>
+				<String>UNKNOWN</String>
+				<String>UNKNOWN</String>
+				<String />
+				<JDBCDriver_Status>WARNING</JDBCDriver_Status>
+				<New_JDBC_Driver />
+				<Driver_Path />
+			</JDBCDriver_Return>
+			<ME_INT_PARA>
+				<HOST>localhost</HOST>
+				<SID />
+				<PORT>1433</PORT>
+				<INSTANCE />
+				<USER_NAME>MFG_ME_INT</USER_NAME>
+				<PASSWORD>MFG123456</PASSWORD>
+				<DATABASE>MFG_ME_INT</DATABASE>
+				<URL>jdbc:sqlserver://localhost:1433</URL>
+				<SAPMEINTXA_Return>
+					<String>FAILED</String>
+					<String>java.lang.IllegalArgumentException: MBean not found for
+						the Data Source [SAPMEINTXA].&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.getDataSourceMBean(DataSourceService.java:443)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDatasourceDetails(DataSourceService.java:727)&#13;
+						at
+						com.sap.me.ctc.services.datasource.DataSourceService.readDataSourceInfo(DataSourceService.java:534)&#13;
+						at sun.reflect.NativeMethodAccessorImpl.invoke0(Native
+						Method)&#13;
+						at
+						sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+						at
+						sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+						at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaMethodExecuter.invoke(JavaMethodExecuter.java:259)&#13;
+						at
+						com.sap.tc.lm.ctc.provider.javaServiceProvider.JavaServiceExecuter.executeService(JavaServiceExecuter.java:86)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.broker.BrokerServiceExecuter.executeService(BrokerServiceExecuter.java:59)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.executor.CULServiceExecutor.executeService(CULServiceExecutor.java:36)&#13;
+						at
+						com.sap.tc.lm.ctc.cul.serviceimpl.process.InvokeServiceControllerDefault.execute(InvokeServiceControllerDefault.java:133)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.remoteOrLocalExecution(ProcessControllerImpl.java:741)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessControllerImpl.execute(ProcessControllerImpl.java:286)&#13;
+						at
+						com.sap.tc.lm.ctc.metamodel.process.controller.ProcessExecuter.run(ProcessExecuter.java:156)&#13;
+						at java.lang.Thread.run(Thread.java:763)&#13;</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String>MFG_ME_INT</String>
+					<String>MFG123456</String>
+					<String />
+					<String>MFG_ME_INT</String>
+					<String>localhost</String>
+					<String>1433</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</SAPMEINTXA_Return>
+			</ME_INT_PARA>
+		</DB_Parameters>
+		<NW_USER_CONFIG>
+			<userName>SITE_ADMIN</userName>
+			<password>MFG123456</password>
+			<userType>B</userType>
+			<role>SAP_ME_USER</role>
+			<BobjRequired>true</BobjRequired>
+		</NW_USER_CONFIG>
+		<Inital_Database_Check>
+			<JDBC_URL />
+			<DB_ADMIN_USR />
+			<DB_ADMIN_PWD />
+			<Driver_Class>com.microsoft.sqlserver.jdbc.SQLServerDriver
+			</Driver_Class>
+			<Driver_Location>file:C:\usr\sap\MFG\SYS\global\ctc\uploadedFiles\com\sap\me\ctc\drivers\sqljdbc4.jar
+			</Driver_Location>
+			<JDBC_DRIVER_PATH />
+			<ODS_DB_ADMIN_USR />
+			<ODS_DB_ADMIN_PWD />
+			<JDBC_URL_ODS />
+			<CHECKBOX_ODS_DB>false</CHECKBOX_ODS_DB>
+		</Inital_Database_Check>
+		<Create_Database_Users>
+			<WIP_USR />
+			<WIP_PWD />
+			<ODS_USR />
+			<ODS_PWD />
+			<createWipUser />
+			<createODSUser />
+		</Create_Database_Users>
+		<IDAT_Load_Service_Params>
+			<NWMEHost />
+			<NWMEPort />
+			<DPMOIdat />
+			<NWUserName>SITE_ADMIN</NWUserName>
+			<NWPassword />
+			<site>*</site>
+		</IDAT_Load_Service_Params>
+		<NW_ME>
+			<NW_ME_HOST>PVGN50865911A</NW_ME_HOST>
+			<NW_ME_PORT>50000</NW_ME_PORT>
+		</NW_ME>
+		<Database_Server_Links>
+			<WIP_Link />
+			<ODS_Link />
+			<GODS_Link />
+			<ODS_on_different_server>false</ODS_on_different_server>
+			<GODS_on_different_server>false</GODS_on_different_server>
+		</Database_Server_Links>
+	</root>
+</content>

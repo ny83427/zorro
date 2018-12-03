@@ -1,0 +1,18 @@
+<content>
+	<root>
+		<OPTIONAL_IDATS>
+			<DPMO_Idat />
+			<NW_Host />
+			<NW_Port />
+			<Site_Admin_User>SITE_ADMIN</Site_Admin_User>
+			<Password />
+			<Site>*</Site>
+			<Language />
+			<result>
+				<string>English</string>
+				<timezoneStr>Asia/Shanghai</timezoneStr>
+			</result>
+			<timezone />
+		</OPTIONAL_IDATS>
+	</root>
+</content>

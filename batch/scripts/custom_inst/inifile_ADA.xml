@@ -1,0 +1,2628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="keydb.xsl" ?>
+<!DOCTYPE tables SYSTEM "keydb.dtd" >
+<!-- to be done  -->
+<tables>
+<tableset  srcid="created_by_controler">
+  <table name="INIFILE_MANAGER" namespaces="INFILE_MANAGER_NS">
+    <columns>
+      <column name="CONFIG">
+        <defaultproperties>
+          <property name ="SAPINST_INSTANCE_ID_GENERATION" value ="SUBCOMPONENT_ID" />
+        </defaultproperties>
+      </column>
+    </columns>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_First_Steps-ind-ind-ind-ind-firstSteps-0-Preinstall-ind-ind-ind-ind-Preinstall-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="installationMode">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_pre" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="installationMode">
+        <properties>
+          <property name ="doc-long" value ="standard or custom " />
+        </properties>
+        <strval><![CDATA[standard]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-SelectOptionalUnits-ind-ind-ind-ind-optUnits-0_t_software_features" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="DEPENDS_ON_EXP">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </defaultproperties>
+      </column>
+      <column name="IS_ACTIVE">
+      </column>
+      <column name="IS_ACTIVE_CHOICE">
+      </column>
+      <column name="IS_POSSIBLE">
+      </column>
+      <column name="LONG_NAME">
+      </column>
+      <column name="NAME">
+      </column>
+      <column name="PRODUCT_CODE">
+      </column>
+      <column name="SHORT_NAME">
+      </column>
+      <column name="VENDOR">
+      </column>
+    </columns>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[Application Server ABAP]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[AAS]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Application Server ABAP]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[ADOBE, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[ALV Export Services]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[ALV-EXPORT]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[ALV Export Services]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[Application Server Java]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[BASIC]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Application Server Java]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[Demo Applications]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[BASIC-RA]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Demo Applications]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[NWDS Update Site]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[IDE-Update-Site]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[NWDS Update Site]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[NW Product Description]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[PI Adapter Engine Standalone]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[PI-AE-SE]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[PI Adapter Engine Standalone]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[ESR, PI-AF]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[Advanced Adapter Engine Extended]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[PI-AEX]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Advanced Adapter Engine Extended]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[AS, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[Process Integration Adapter Engine]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[PI-AF]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[PI Adapter Engine]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Composite Application Framework]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[CE-APPS]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Composite Application Framework]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[CE-APPS, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[       Composition Environment Platform]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[COMP-ENV]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Composition Environment Platform]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[COMP-ENV, CE-APPS, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[           Business Process Management and Business Rules Management]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[BPM]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Business Process Management and Business Rules Management]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[COMP-ENV, CE-APPS, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[           Guided Procedures]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[CE-PROCESS]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Guided Procedures]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[COMP-ENV, CE-APPS, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[           Composition Voice]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[CE-VOICE]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Composition Voice]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Application Server Java Extensions]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[AS]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Application Server Java Extensions]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   EP Core - Application Portal]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[EPC]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[EP Core - Application Portal]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[AS, EPC, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[       Enterprise Portal]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[EP]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Enterprise Portal]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[EP, AS, EPC, BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[           BI Java]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[BI]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[BI Java]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Enterprise Services Repository]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[ESR]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Enterprise Services Repository]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[ESR, PI-AF]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[       Process Integration]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[PI]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Process Integration]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Development Infrastructure]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[DI]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Development Infrastructure]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Adobe Document Services]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[ADOBE]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Adobe Document Services]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="DEPENDS_ON_EXP">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+Set the field IS_ACTIVE_CHOICE to true for each usage types you want to install." />
+        </properties>
+        <strval><![CDATA[BASIC, NW-MODEL]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_ACTIVE_CHOICE">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="IS_POSSIBLE">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="LONG_NAME">
+        <strval><![CDATA[   Central Process Scheduling by Redwood]]>
+        </strval>
+      </fld>
+      <fld name="NAME">
+        <strval><![CDATA[JOB-SCHED]]>
+        </strval>
+      </fld>
+      <fld name="PRODUCT_CODE">
+        <strval><![CDATA[NetWeaver]]>
+        </strval>
+      </fld>
+      <fld name="SHORT_NAME">
+        <strval><![CDATA[Central Process Scheduling by Redwood]]>
+        </strval>
+      </fld>
+      <fld name="VENDOR">
+        <strval><![CDATA[sap.com]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_getFQDN-ind-ind-ind-ind-fqdn-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="setFQDN">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_fqdn" />
+        </defaultproperties>
+      </column>
+      <column name="FQDN">
+      </column>
+    </columns>
+    <row>
+      <fld name="setFQDN">
+        <properties>
+          <property name ="doc-long" value ="Do we want to set the FQDN for the system? " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="FQDN">
+        <properties>
+          <property name ="doc-long" value ="The FQDN of the system. " />
+        </properties>
+        <strval><![CDATA[apj.global.corp.sap]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_getJavaHome-ind-ind-ind-ind-java-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="javaHome">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_java" />
+        </defaultproperties>
+      </column>
+      <column name="useSAPJVM">
+      </column>
+      <column name="jcePolicyArchive">
+      </column>
+    </columns>
+    <row>
+      <fld name="javaHome">
+        <properties>
+          <property name ="doc-long" value =" The java home directory to use for this installation. Used for gui mapping." />
+        </properties>
+        <strval><![CDATA[C:\Program Files\sapinst_instdir\NW731\ADA\INSTALL\STD\sapjvm\sapjvm_6]]>
+        </strval>
+      </fld>
+      <fld name="useSAPJVM">
+        <properties>
+          <property name ="doc-long" value =" True if we should use SAPJVM. Used for UI mapping." />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="jcePolicyArchive">
+        <properties>
+          <property name ="doc-long" value =" The path to the jce policy archive to install into the java home directory if it is not already installed." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_GetUserParameter-ind-ind-ind-ind-users-0-NW_GetMasterPassword-ind-ind-ind-ind-masterpwd-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="masterPwd">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_masterpwd" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="masterPwd">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_GetUserParameter-ind-ind-ind-ind-users-0-NW_GetUserParameterWindows-ind-ind-ind-ind-users_win-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sapDomain">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_Win" />
+        </defaultproperties>
+      </column>
+      <column name="sidAdmPassword">
+      </column>
+      <column name="sapServiceSIDPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="sapDomain">
+        <properties>
+          <property name ="doc-long" value =" The windows domain name for the OS users" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sidAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the sidadm user." />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+      <fld name="sapServiceSIDPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the SAPServiceSID user." />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_GetUserParameter-ind-ind-ind-ind-users-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sapAdmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_users" />
+        </defaultproperties>
+      </column>
+      <column name="hostAgentDomain">
+      </column>
+      <column name="sidAdmPassword">
+      </column>
+      <column name="sapServiceSIDPassword">
+      </column>
+      <column name="sapDomain">
+      </column>
+      <column name="smdAdmPassword">
+      </column>
+      <column name="sapServiceSMDPassword">
+      </column>
+      <column name="smdAgentDomain">
+      </column>
+    </columns>
+    <row>
+      <fld name="sapAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="hostAgentDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sidAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapServiceSIDPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="smdAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapServiceSMDPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="smdAgentDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_getDBInfo-ind-ind-ind-ind-db-0-NW_getLoadType-ind-ind-ind-ind-loadType-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="loadType">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_loadType" />
+        </defaultproperties>
+      </column>
+      <column name="doMigMonConfig">
+      </column>
+    </columns>
+    <row>
+      <fld name="loadType">
+        <properties>
+          <property name ="doc-long" value =" Valid values are: SAP, STD, OBR, HCP, MDAThe loadtype chosen by the user." />
+        </properties>
+        <strval><![CDATA[SAP]]>
+        </strval>
+      </fld>
+      <fld name="doMigMonConfig">
+        <properties>
+          <property name ="doc-long" value =" Manual configuration and execution of Migration Monitor." />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_getDBInfo-ind-ind-ind-ind-db-0-NW_ADA_getDBInfo-ind-ind-ind-ind-ada_dbinfo-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbsid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_ada" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="dbsid">
+        <properties>
+          <property name ="doc-long" value =" The DB SID" />
+        </properties>
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0-NW_GetDBUserParameter-ind-ind-ind-ind-dbusers-0-NW_GetUserParameterWindows_ada-ind-ind-ind-ind-ada_win-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sqd_dbsid_password">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_win_ada" />
+        </defaultproperties>
+      </column>
+      <column name="sqd_dbsid_name">
+      </column>
+    </columns>
+    <row>
+      <fld name="sqd_dbsid_password">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sqd_dbsid_name">
+        <strval><![CDATA[sqdmfg]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_GetSidNoProfiles-ind-ind-ind-ind-getSid-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sid" />
+        </defaultproperties>
+      </column>
+      <column name="SAP_GUI_DEFAULT_LANGUAGE">
+      </column>
+      <column name="aspDevice">
+      </column>
+    </columns>
+    <row>
+      <fld name="sid">
+        <properties>
+          <property name ="doc-long" value =" The SAP System ID of the system to install" />
+        </properties>
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="SAP_GUI_DEFAULT_LANGUAGE">
+        <properties>
+          <property name ="doc-long" value =" Human readable form of the Default Login language - used for instant in the preselection in SAPGUI. This Parameter is potentialy asked in addition in the dialog that also asks for the SID. It is not asked in all this dialogs, but only in systems that have ( potentialy beside others ) an ABAP stack. It is ask for installation but not for system copy. It is asked in those installations, that perform the ABAP load. That could be the Database Load installation in case of a distributed szenario, or in the Standard Installer, that is not distributed at all. This Parameter is saved in the Default Profile. It is has no influence on Language settings in a Java Stack. Valid names are stored in a table of the subcomponent NW_languagesInLoadChecks. The available languages must be declaired in the LANGUAGES_IN_LOAD parameter of the product.xml . In this file the one character representation of the languages is uses. Check the same table in the subcomponent mentioned above." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="aspDevice">
+        <properties>
+          <property name ="doc-long" value =" The ASP device name where the SAP system will be in installed." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_System-ind-ind-ind-ind-system-0-NW_SAPHostAgent-ind-ind-ind-ind-hostagent-0-NW_GetUserParameter-ind-ind-ind-ind-userParams-0-NW_GetUserParameterWindows-ind-ind-ind-ind-users_win-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sapDomain">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_Win" />
+        </defaultproperties>
+      </column>
+      <column name="sidAdmPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="sapDomain">
+        <properties>
+          <property name ="doc-long" value =" The windows domain name for the OS users" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sidAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the sidadm user." />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_System-ind-ind-ind-ind-system-0-NW_SAPHostAgent-ind-ind-ind-ind-hostagent-0-NW_GetUserParameter-ind-ind-ind-ind-userParams-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sapAdmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_userParams" />
+        </defaultproperties>
+      </column>
+      <column name="hostAgentDomain">
+      </column>
+      <column name="sidAdmPassword">
+      </column>
+      <column name="sapServiceSIDPassword">
+      </column>
+      <column name="sapDomain">
+      </column>
+      <column name="smdAdmPassword">
+      </column>
+      <column name="sapServiceSMDPassword">
+      </column>
+      <column name="smdAgentDomain">
+      </column>
+    </columns>
+    <row>
+      <fld name="sapAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="hostAgentDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sidAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapServiceSIDPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="smdAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sapServiceSMDPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="smdAgentDomain">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_System-ind-ind-ind-ind-system-0_t_profileParameters" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="addNumbered">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="instanceNumber">
+      </column>
+      <column name="name">
+      </column>
+      <column name="value">
+      </column>
+    </columns>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_DBClient-ind-ind-ind-ind-dbclient-0-NW_ADA_DBClient-ind-ind-ind-ind-nw_ada_dbclient-0-Sdb_ClientSoftware_Dialogs-ind-ind-ind-ind-clientsoftware_dialogs-0-Sdb_ClientSoftware-ind-ind-ind-ind-auto.id:1-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_clientsw" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_DBClient-ind-ind-ind-ind-dbclient-0-NW_ADA_DBClient-ind-ind-ind-ind-nw_ada_dbclient-0-Sdb_ClientSoftware_Dialogs-ind-ind-ind-ind-clientsoftware_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_clientsw" />
+        </defaultproperties>
+      </column>
+      <column name="indep_prog_drive">
+      </column>
+      <column name="indep_data_drive">
+      </column>
+      <column name="installation_drive">
+      </column>
+      <column name="ignore_versioncheck">
+      </column>
+    </columns>
+    <row>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="indep_prog_drive">
+        <strval><![CDATA[C:]]>
+        </strval>
+      </fld>
+      <fld name="indep_data_drive">
+        <strval><![CDATA[C:]]>
+        </strval>
+      </fld>
+      <fld name="installation_drive">
+        <strval><![CDATA[C:]]>
+        </strval>
+      </fld>
+      <fld name="ignore_versioncheck">
+        <properties>
+          <property name ="doc-long" value ="Versioncheck between existing client software and software on DVD will be ignored " />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_ServerSoftware_Dialogs-ind-ind-ind-ind-serversoftware_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dependent_drive">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_serversw" />
+        </defaultproperties>
+      </column>
+      <column name="LVC">
+      </column>
+      <column name="CS_SRV">
+      </column>
+      <column name="CLUSTER">
+      </column>
+      <column name="INSTALLATION_DIRECTORY">
+      </column>
+    </columns>
+    <row>
+      <fld name="dependent_drive">
+        <strval><![CDATA[C:]]>
+        </strval>
+      </fld>
+      <fld name="LVC">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="CS_SRV">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="CLUSTER">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="INSTALLATION_DIRECTORY">
+        <properties>
+          <property name ="doc-long" value =" Only Unix: installation directory" />
+        </properties>
+        <strval><![CDATA[/sapdb]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_DBUser_Dialogs-ind-ind-ind-ind-dbuser_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbaPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_dbuser" />
+        </defaultproperties>
+      </column>
+      <column name="dbmPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of Database System Administrator 'superdba'" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of Database Manager Operator 'control'" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-SdbPreInstanceDialogs-ind-ind-ind-ind-preinstance_dialogs-0-SdbInstanceDialogs-ind-ind-ind-ind-instance_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="backup_recovery">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="tSdbNewInstance" />
+        </defaultproperties>
+      </column>
+      <column name="waitForBackup">
+      </column>
+      <column name="backupType">
+      </column>
+      <column name="mediumName">
+      </column>
+      <column name="backupLocation">
+      </column>
+      <column name="dbmem">
+      </column>
+      <column name="CPU_number">
+      </column>
+      <column name="volume_type">
+      </column>
+      <column name="dbsessions">
+      </column>
+      <column name="dbmirroring">
+      </column>
+      <column name="CLUSTER">
+      </column>
+      <column name="activate_existing">
+      </column>
+    </columns>
+    <row>
+      <fld name="backup_recovery">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="waitForBackup">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="backupType">
+        <strval><![CDATA[File]]>
+        </strval>
+      </fld>
+      <fld name="mediumName">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="backupLocation">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbmem">
+        <strval><![CDATA[5356]]>
+        </strval>
+      </fld>
+      <fld name="CPU_number">
+        <strval><![CDATA[2]]>
+        </strval>
+      </fld>
+      <fld name="volume_type">
+        <properties>
+          <property name ="doc-long" value =" possible values: RAW and FS (for filesystem)" />
+        </properties>
+        <strval><![CDATA[FS]]>
+        </strval>
+      </fld>
+      <fld name="dbsessions">
+        <strval><![CDATA[100]]>
+        </strval>
+      </fld>
+      <fld name="dbmirroring">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="CLUSTER">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="activate_existing">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-SdbPreInstanceDialogs-ind-ind-ind-ind-preinstance_dialogs-0_tSdbInternalMedium" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="SdbMVolumePath">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="SdbVolumeName">
+      </column>
+      <column name="SdbVolumePath">
+      </column>
+      <column name="SdbVolumeSize">
+      </column>
+      <column name="dbsid">
+      </column>
+    </columns>
+    <row>
+      <fld name="SdbMVolumePath">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeName">
+        <strval><![CDATA[DATA]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumePath">
+        <strval><![CDATA[C:\sapdb\MFG\sapdata]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeSize">
+        <strval><![CDATA[2200]]>
+        </strval>
+      </fld>
+      <fld name="dbsid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="SdbMVolumePath">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeName">
+        <strval><![CDATA[DATA]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumePath">
+        <strval><![CDATA[C:\sapdb\MFG\sapdata]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeSize">
+        <strval><![CDATA[2200]]>
+        </strval>
+      </fld>
+      <fld name="dbsid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="SdbMVolumePath">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeName">
+        <strval><![CDATA[DATA]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumePath">
+        <strval><![CDATA[C:\sapdb\MFG\sapdata]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeSize">
+        <strval><![CDATA[2200]]>
+        </strval>
+      </fld>
+      <fld name="dbsid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="SdbMVolumePath">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeName">
+        <strval><![CDATA[LOG]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumePath">
+        <strval><![CDATA[C:\sapdb\MFG\saplog]]>
+        </strval>
+      </fld>
+      <fld name="SdbVolumeSize">
+        <strval><![CDATA[4400]]>
+        </strval>
+      </fld>
+      <fld name="dbsid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-SdbPreInstanceDialogs-ind-ind-ind-ind-preinstance_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="exist_action">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_instance" />
+        </defaultproperties>
+      </column>
+      <column name="dbmem">
+      </column>
+      <column name="systemsize">
+      </column>
+      <column name="CLUSTER">
+      </column>
+      <column name="recreate_option">
+      </column>
+    </columns>
+    <row>
+      <fld name="exist_action">
+        <strval><![CDATA[ask_user]]>
+        </strval>
+      </fld>
+      <fld name="dbmem">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="systemsize">
+        <strval><![CDATA[undefined]]>
+        </strval>
+      </fld>
+      <fld name="CLUSTER">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="recreate_option">
+        <properties>
+          <property name ="doc-long" value =" Possible values: recreateFromScratch, keepParameter" />
+        </properties>
+        <strval><![CDATA[recreateFromScratch]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_Schema_Dialogs-ind-ind-ind-ind-schema_dialogs-0-Sdb_Schema-ind-ind-ind-ind-schema-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbaPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_schema" />
+        </defaultproperties>
+      </column>
+      <column name="dbmPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" The Default Code for the Database Schema unicode/ascii" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" The Default Code for the Database Schema unicode/ascii" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_Schema_Dialogs-ind-ind-ind-ind-schema_dialogs-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="actionIfExists">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_schema" />
+        </defaultproperties>
+      </column>
+      <column name="dbaPassword">
+      </column>
+      <column name="dbmPassword">
+      </column>
+      <column name="dbSchemaPassword">
+      </column>
+      <column name="askSchemaName">
+      </column>
+    </columns>
+    <row>
+      <fld name="actionIfExists">
+        <properties>
+          <property name ="doc-long" value =" Action in case schema exists: ASK_USER, RECREATE, CREATE" />
+        </properties>
+        <strval><![CDATA[ASK_USER]]>
+        </strval>
+      </fld>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the database administrator" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the database manager" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbSchemaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of the database user" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+      <fld name="askSchemaName">
+        <properties>
+          <property name ="doc-long" value =" Ask for the name of the schema" />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_Xuser-ind-ind-ind-ind-xuser-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_xuser" />
+        </defaultproperties>
+      </column>
+      <column name="dbaPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of control db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of superdba db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_Xuser-ind-ind-ind-ind-xuser-1" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_xuser" />
+        </defaultproperties>
+      </column>
+      <column name="dbaPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of control db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of superdba db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_CreateDB-ind-ind-ind-ind-createdb-0-NW_ADA_DB-ind-ind-ind-ind-nw_ada_db-0-Sdb_Xuser-ind-ind-ind-ind-xuser-2" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_sdb_xuser" />
+        </defaultproperties>
+      </column>
+      <column name="dbaPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of control db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dbaPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+          <property name ="doc-long" value =" Password of superdba db user" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0-NW_SecureStore-ind-ind-ind-ind-securestore-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="keyPhrase">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_java_securestore" />
+        </defaultproperties>
+      </column>
+      <column name="encryption">
+      </column>
+    </columns>
+    <row>
+      <fld name="keyPhrase">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+      <fld name="encryption">
+        <strval><![CDATA[strong]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CreateDBandLoad-ind-ind-ind-ind-createdbandload-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="movePVCforUsagePiAndDi">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_createDBandLoad" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="movePVCforUsagePiAndDi">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0-NW_IcmAuth-ind-ind-ind-ind-icmauth-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="webadmPassword">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_icmauth" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="webadmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0-NW_CI_Instance_Configure_Java-ind-ind-ind-ind-javaconfig-0-NW_UME_Configuration-ind-ind-ind-ind-ume-0-NW_UME_Configuration_Standalone-ind-ind-ind-ind-standalone-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="umeType">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_standalone" />
+        </defaultproperties>
+      </column>
+      <column name="adminName">
+      </column>
+      <column name="adminPassword">
+      </column>
+      <column name="guestName">
+      </column>
+      <column name="fillSecondUser">
+      </column>
+      <column name="adminNameSecond">
+      </column>
+      <column name="adminPasswordSecond">
+      </column>
+    </columns>
+    <row>
+      <fld name="umeType">
+        <properties>
+          <property name ="doc-long" value ="Legal values are 'db'  'abap'  " />
+        </properties>
+        <strval><![CDATA[db]]>
+        </strval>
+      </fld>
+      <fld name="adminName">
+        <strval><![CDATA[Administrator]]>
+        </strval>
+      </fld>
+      <fld name="adminPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[des24(81|44|188|215|176|88|46|126|85|59|250|49|124|199|126|53|233|208|)]]>
+        </strval>
+      </fld>
+      <fld name="guestName">
+        <strval><![CDATA[Guest]]>
+        </strval>
+      </fld>
+      <fld name="fillSecondUser">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="adminNameSecond">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="adminPasswordSecond">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="YES" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0-NW_getJavaHome_jcePolicy-ind-ind-ind-ind-policy-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="jcePolicyArchive">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_policy" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="jcePolicyArchive">
+        <properties>
+          <property name ="doc-long" value ="The path to the jce policy archive to install into the java home directory if it is not already installed. " />
+        </properties>
+        <strval><![CDATA[C:\MFG_INST\rawfiles\jce_policy-6.zip]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0_t_profileParameters" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="addNumbered">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="instanceNumber">
+      </column>
+      <column name="name">
+      </column>
+      <column name="value">
+      </column>
+    </columns>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0-NW_Instance-ind-ind-ind-ind-scsInstance-0_t_profileParameters" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="addNumbered">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="instanceNumber">
+      </column>
+      <column name="name">
+      </column>
+      <column name="value">
+      </column>
+    </columns>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_CI_Instance-ind-ind-ind-ind-ci-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="instanceNumber">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_ci" />
+        </defaultproperties>
+      </column>
+      <column name="secStoreSrcDir">
+      </column>
+      <column name="transHost">
+      </column>
+      <column name="scsInstanceNumber">
+      </column>
+      <column name="scsInstallERS">
+      </column>
+      <column name="scsMSPortInternal">
+      </column>
+      <column name="ascsInstallERS">
+      </column>
+      <column name="installOfflineDoc">
+      </column>
+      <column name="nodesNumber">
+      </column>
+      <column name="nodesNum">
+      </column>
+    </columns>
+    <row>
+      <fld name="instanceNumber">
+        <strval><![CDATA[00]]>
+        </strval>
+      </fld>
+      <fld name="secStoreSrcDir">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="transHost">
+        <strval><![CDATA[PVGN50865911A]]>
+        </strval>
+      </fld>
+      <fld name="scsInstanceNumber">
+        <strval><![CDATA[01]]>
+        </strval>
+      </fld>
+      <fld name="scsInstallERS">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="scsMSPortInternal">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="ascsInstallERS">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="installOfflineDoc">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="nodesNumber">
+        <strval><![CDATA[defNodes]]>
+        </strval>
+      </fld>
+      <fld name="nodesNum">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_Unpack2-ind-ind-ind-ind-unpack-0-NW_SAPCrypto-ind-ind-ind-ind-crypto-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="SAPCryptoFile">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_cryptoContext" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="SAPCryptoFile">
+        <strval><![CDATA[C:/MFG_INST/NW731JAVA/51044253_4/DATA_UNITS/K_720_U_WINDOWS_X86_64/DBINDEP/SAPCRYPTO.SAR]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_Unpack2-ind-ind-ind-ind-unpack-0_t_cryptoTable" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="path">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="sid">
+      </column>
+      <column name="unpackThis">
+      </column>
+    </columns>
+    <row>
+      <fld name="path">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[sapcrypto.dll]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpackThis">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="path">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[sapcrypto.lst]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpackThis">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="path">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[sapcrypto.mf]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpackThis">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="path">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[sapgenpse.exe]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpackThis">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0_t_askUnpack" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="codepage">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="destination">
+      </column>
+      <column name="ownPath">
+      </column>
+      <column name="path">
+      </column>
+      <column name="sid">
+      </column>
+      <column name="unpack">
+      </column>
+    </columns>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[Unicode]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\SYS\exe\uc\NTAMD64]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[DBINDEP\SAPEXE.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[Unicode]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\SYS\exe\uc\NTAMD64]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[ADA\SAPEXEDB.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[Unicode]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\SYS\exe\uc\NTAMD64]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[DBINDEP\IGSEXE.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[Unicode]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\J00]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[DBINDEP\IGSHELPER.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[Unicode]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\SYS\exe\jvm\NTAMD64\sapjvm_6.1.037]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[DBINDEP\SAPJVM6.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="codepage">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="destination">
+        <strval><![CDATA[C:\usr\sap\MFG\SYS\global\SDT]]>
+        </strval>
+      </fld>
+      <fld name="ownPath">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="path">
+        <strval><![CDATA[LUP.SAR]]>
+        </strval>
+      </fld>
+      <fld name="sid">
+        <strval><![CDATA[MFG]]>
+        </strval>
+      </fld>
+      <fld name="unpack">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-NW_Onehost_System-ind-ind-ind-ind-onehost-0-NW_SMDAgent_Adapter-ind-ind-ind-ind-diag_agt-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="installSMDAgent">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_diag_agt" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="installSMDAgent">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0_t_r3LoadEnviroment" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="Name">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="Value">
+      </column>
+    </columns>
+  </table>
+  <table name="ParameterTable-NW_Java_OneHost-ind-ind-ind-ind-0-0_t_r3LoadParameter" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="Value">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+    </columns>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0-SAP_Software_Features_Enablement-ind-ind-ind-ind-usage_enable-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="copyNWDIArchives">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_SAP_Software_Features_Enable" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="copyNWDIArchives">
+        <properties>
+          <property name ="doc-long" value =" Controls whether buildarchives are copied to the system. The parameter is overwritten by the copyBuildarchives switch in product.xml." />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Java_OneHost-ind-ind-ind-ind-0-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="enableImig">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="NW_Java_OneHost_CONTEXT" />
+        </defaultproperties>
+      </column>
+      <column name="skipUsageTypesDelivery">
+      </column>
+      <column name="startEngine">
+      </column>
+      <column name="startMMC">
+      </column>
+    </columns>
+    <row>
+      <fld name="enableImig">
+        <properties>
+          <property name ="doc-long" value ="'true' if IMIG should be enabled. " />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="skipUsageTypesDelivery">
+        <properties>
+          <property name ="doc-long" value ="for internal use only - allows to skip UT processing components to deliver Core Engine only " />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="startEngine">
+        <properties>
+          <property name ="doc-long" value =" true: start the engine. false: no engine start." />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="startMMC">
+        <properties>
+          <property name ="doc-long" value =" Possible values :
+        true  : start the SAP MMC.
+        false : no SAP MMC start.
+        This parameter makes sense only on MS Windows, since SAP MMC is availible only there." />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+</tableset>
+</tables>

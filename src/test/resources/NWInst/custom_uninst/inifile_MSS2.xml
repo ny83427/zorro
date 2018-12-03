@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="keydb.xsl" ?>
+<!DOCTYPE tables SYSTEM "keydb.dtd" >
+<!-- to be done  -->
+<tables>
+<tableset  srcid="created_by_controler">
+  <table name="INIFILE_MANAGER" namespaces="INFILE_MANAGER_NS">
+    <columns>
+      <column name="CONFIG">
+        <defaultproperties>
+          <property name ="SAPINST_INSTANCE_ID_GENERATION" value ="SUBCOMPONENT_ID" />
+        </defaultproperties>
+      </column>
+    </columns>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_First_Steps-ind-ind-ind-ind-firstSteps-0-Preinstall-ind-ind-ind-ind-Preinstall-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="installationMode">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_pre" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="installationMode">
+        <properties>
+          <property name ="doc-long" value ="standard or custom " />
+        </properties>
+        <strval><![CDATA[undefined]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_GetSidMaybeProfiles-ind-ind-ind-ind-getSid-0-NW_readProfileDir-ind-ind-ind-ind-readProfile-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="profileDir">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_pd" />
+        </defaultproperties>
+      </column>
+      <column name="haveProfiles">
+      </column>
+      <column name="hostagentOnly">
+      </column>
+      <column name="SAP_GUI_DEFAULT_LANGUAGE">
+      </column>
+    </columns>
+    <row>
+      <fld name="profileDir">
+        <strval><![CDATA[\\PVGN50865909A\sapmnt\AMU\SYS\profile]]>
+        </strval>
+      </fld>
+      <fld name="haveProfiles">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="hostagentOnly">
+        <properties>
+          <property name ="doc-long" value =" Only uninstall the host agent" />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="SAP_GUI_DEFAULT_LANGUAGE">
+        <properties>
+          <property name ="doc-long" value =" Human readable form of the Default Login language - used for instant in the preselection in SAPGUI. This Parameter is potentialy asked in addition in the dialog that also asks for the SID. It is not asked in all this dialogs, but only in systems that have ( potentialy beside others ) an ABAP stack. It is ask for installation but not for system copy. It is asked in those installations, that perform the ABAP load. That could be the Database Load installation in case of a distributed szenario, or in the Standard Installer, that is not distributed at all. This Parameter is saved in the Default Profile. It is has no influence on Language settings in a Java Stack. Valid names are stored in a table of the subcomponent NW_languagesInLoadChecks. The available languages must be declaired in the LANGUAGES_IN_LOAD parameter of the product.xml . In this file the one character representation of the languages is uses. Check the same table in the subcomponent mentioned above." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_GetSidMaybeProfiles-ind-ind-ind-ind-getSid-0-NW_GetSidFromProfilesPartial-ind-ind-ind-ind-havepf-0-NW_getUnicode-ind-ind-ind-ind-unicode-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="isUnicode">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_unicode" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="isUnicode">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_GetSidMaybeProfiles-ind-ind-ind-ind-getSid-0-NW_GetSidFromProfilesPartial-ind-ind-ind-ind-havepf-0-NW_getFQDN-ind-ind-ind-ind-fqdn-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="setFQDN">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_fqdn" />
+        </defaultproperties>
+      </column>
+      <column name="FQDN">
+      </column>
+    </columns>
+    <row>
+      <fld name="setFQDN">
+        <properties>
+          <property name ="doc-long" value ="Do we want to set the FQDN for the system? " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="FQDN">
+        <properties>
+          <property name ="doc-long" value ="The FQDN of the system. " />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_getHasABAPandJava-ind-ind-ind-ind-hasABAP-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="hasABAP">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_hasABAP" />
+        </defaultproperties>
+      </column>
+      <column name="hasJava">
+      </column>
+    </columns>
+    <row>
+      <fld name="hasABAP">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="hasJava">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0-NW_getDBInfo-ind-ind-ind-ind-dbinfo-0-NW_getLoadType-ind-ind-ind-ind-loadType-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="loadType">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_loadType" />
+        </defaultproperties>
+      </column>
+      <column name="doMigMonConfig">
+      </column>
+    </columns>
+    <row>
+      <fld name="loadType">
+        <properties>
+          <property name ="doc-long" value =" Valid values are: SAP, STD, OBR, HCP, MDAThe loadtype chosen by the user." />
+        </properties>
+        <strval><![CDATA[SAP]]>
+        </strval>
+      </fld>
+      <fld name="doMigMonConfig">
+        <properties>
+          <property name ="doc-long" value =" Manual configuration and execution of Migration Monitor." />
+        </properties>
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0-NW_getDBInfo-ind-ind-ind-ind-dbinfo-0-NW_MSS_DBINFO-ind-ind-ind-ind-mss-0-MssLoginInfo-ind-ind-ind-ind-login-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="DbServer">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_MssLoginInfo_CONTEXT" />
+        </defaultproperties>
+      </column>
+      <column name="LoginType">
+      </column>
+      <column name="Login">
+      </column>
+      <column name="Password">
+      </column>
+    </columns>
+    <row>
+      <fld name="DbServer">
+        <properties>
+          <property name ="doc-long" value =" Database server to connect to." />
+        </properties>
+        <strval><![CDATA[PVGN50865909A]]>
+        </strval>
+      </fld>
+      <fld name="LoginType">
+        <properties>
+          <property name ="doc-long" value =" Login type: WIN or SQL (doesn't metter if AllowSQLLogin is false)" />
+        </properties>
+        <strval><![CDATA[WIN]]>
+        </strval>
+      </fld>
+      <fld name="Login">
+        <properties>
+          <property name ="doc-long" value =" SQL login to use (if any)." />
+        </properties>
+        <strval><![CDATA[sa]]>
+        </strval>
+      </fld>
+      <fld name="Password">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="NO" />
+          <property name ="doc-long" value =" Password for the SQL login" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0-NW_getDBInfo-ind-ind-ind-ind-dbinfo-0-NW_MSS_DBINFO-ind-ind-ind-ind-mss-0-MssDatabaseInfo-ind-ind-ind-ind-db-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="Action">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_MssDatabaseInfo_CONTEXT" />
+        </defaultproperties>
+      </column>
+    </columns>
+    <row>
+      <fld name="Action">
+        <properties>
+          <property name ="doc-long" value =" Used in the internal dialog: &quot;&quot; --&gt; auto-dialog-selection, &quot;someValue&quot; --&gt; indicates unattended mode." />
+        </properties>
+        <strval><![CDATA[USE]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0-NW_getDBInfo-ind-ind-ind-ind-dbinfo-0-NW_MSS_DBINFO-ind-ind-ind-ind-mss-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="dbsid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_mss" />
+        </defaultproperties>
+      </column>
+      <column name="dbhost">
+      </column>
+    </columns>
+    <row>
+      <fld name="dbsid">
+        <properties>
+          <property name ="doc-long" value ="The DB SID " />
+        </properties>
+        <strval><![CDATA[AMU]]>
+        </strval>
+      </fld>
+      <fld name="dbhost">
+        <properties>
+          <property name ="doc-long" value ="The DB host " />
+        </properties>
+        <strval><![CDATA[PVGN50865909A]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0-MssSchemaDelete-ind-ind-ind-ind-mssSchemaDelete-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sid">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_mss" />
+        </defaultproperties>
+      </column>
+      <column name="DbName">
+      </column>
+      <column name="Schemas">
+      </column>
+      <column name="NonDefaultSchemasToBeDropped">
+      </column>
+      <column name="dropDb">
+      </column>
+      <column name="DropLogins">
+      </column>
+      <column name="delDirs">
+      </column>
+      <column name="ask">
+      </column>
+    </columns>
+    <row>
+      <fld name="sid">
+        <properties>
+          <property name ="doc-long" value ="SID of the SAP system the delete action should be applied. " />
+        </properties>
+        <strval><![CDATA[AMU]]>
+        </strval>
+      </fld>
+      <fld name="DbName">
+        <properties>
+          <property name ="doc-long" value ="Name of the schema to be deleted " />
+        </properties>
+        <strval><![CDATA[AMU]]>
+        </strval>
+      </fld>
+      <fld name="Schemas">
+        <properties>
+          <property name ="doc-long" value ="Base set of schemas separated by ;. " />
+        </properties>
+        <strval><![CDATA[SAPAMUDB]]>
+        </strval>
+      </fld>
+      <fld name="NonDefaultSchemasToBeDropped">
+        <properties>
+          <property name ="doc-long" value ="Non-default-set of schemas (provided externally) that should be dropped, separated by ;. " />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="dropDb">
+        <properties>
+          <property name ="doc-long" value ="Drop database instead of every single schema if these are the only schemas in it. " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="DropLogins">
+        <properties>
+          <property name ="doc-long" value ="Drop schema logins if they do not have objects in other schemas. " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="delDirs">
+        <properties>
+          <property name ="doc-long" value ="Delete empty directories where the db files were located. " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="ask">
+        <properties>
+          <property name ="doc-long" value ="Ask which schemas should be dropped - must be seti to &quot;false&quot; in unattended mode. " />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_uninstallDB-ind-ind-ind-ind-uninstDB-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="uninstallDB">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_uninstDB" />
+        </defaultproperties>
+      </column>
+      <column name="dbName">
+      </column>
+    </columns>
+    <row>
+      <fld name="uninstallDB">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="dbName">
+        <strval><![CDATA[MS SQL Server]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_GetUserParameterWindows-ind-ind-ind-ind-users-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="sapDomain">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_users" />
+        </defaultproperties>
+      </column>
+      <column name="sidAdmPassword">
+      </column>
+    </columns>
+    <row>
+      <fld name="sapDomain">
+        <properties>
+          <property name ="doc-long" value =" The windows domain name for the OS users" />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="sidAdmPassword">
+        <properties>
+          <property name ="ENCODE_VALUE" value ="NO" />
+          <property name ="doc-long" value =" Password of the sidadm user." />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0-NW_System_Uninstall_Users-ind-ind-ind-ind-removeUsers-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="removeAll">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_removeUsers" />
+        </defaultproperties>
+      </column>
+      <column name="removeOnlyLocal">
+      </column>
+    </columns>
+    <row>
+      <fld name="removeAll">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="removeOnlyLocal">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="-NW_Uninstall-ind-ind-ind-ind-0-0-NW_System_Uninstall-ind-ind-ind-ind-uninstall-0" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="completeSystem">
+        <defaultproperties>
+          <property name ="SAPINST_ORIGINAL_TABLE_NAME" value ="t_uninstall" />
+        </defaultproperties>
+      </column>
+      <column name="removeUsers">
+      </column>
+      <column name="removeClusterGroup">
+      </column>
+      <column name="uninstallHostAgent">
+      </column>
+      <column name="otherGroup">
+      </column>
+      <column name="InstanceNumberList">
+      </column>
+    </columns>
+    <row>
+      <fld name="completeSystem">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="removeUsers">
+        <properties>
+          <property name ="doc-long" value =" Should we remove the accounts of the system?" />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="removeClusterGroup">
+        <strval><![CDATA[false]]>
+        </strval>
+      </fld>
+      <fld name="uninstallHostAgent">
+        <properties>
+          <property name ="doc-long" value =" Should we remove the host agent? This parameter is not mapped to a UI, but can be used for dark runs, especially when using the host agent for dark mode in order to suppress uninstalling the host agent." />
+        </properties>
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+      <fld name="otherGroup">
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+      <fld name="InstanceNumberList">
+        <properties>
+          <property name ="doc-long" value ="This parameter is used to initially fill the instances table, when running with an input parameters file instead of inifile.xml. The format must be comma separated list of instance numbers of the instances which shall be removed, in case completeSystem is false. " />
+        </properties>
+        <strval><![CDATA[]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+  <table name="ParameterTable-NW_Uninstall-ind-ind-ind-ind-0-0_t_instances" namespaces="INIFILE_PARAMETER">
+    <columns>
+      <column name="guid">
+        <defaultproperties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </defaultproperties>
+      </column>
+      <column name="host">
+      </column>
+      <column name="name">
+      </column>
+      <column name="number">
+      </column>
+      <column name="uninstall">
+      </column>
+    </columns>
+    <row>
+      <fld name="guid">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[2]]>
+        </strval>
+      </fld>
+      <fld name="host">
+        <strval><![CDATA[PVGN50865909A]]>
+        </strval>
+      </fld>
+      <fld name="name">
+        <strval><![CDATA[J02]]>
+        </strval>
+      </fld>
+      <fld name="number">
+        <strval><![CDATA[02]]>
+        </strval>
+      </fld>
+      <fld name="uninstall">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+    <row>
+      <fld name="guid">
+        <properties>
+          <property name ="TABLE_DOC_SHORT_LONG" value ="
+" />
+        </properties>
+        <strval><![CDATA[3]]>
+        </strval>
+      </fld>
+      <fld name="host">
+        <strval><![CDATA[PVGN50865909A]]>
+        </strval>
+      </fld>
+      <fld name="name">
+        <strval><![CDATA[SCS03]]>
+        </strval>
+      </fld>
+      <fld name="number">
+        <strval><![CDATA[03]]>
+        </strval>
+      </fld>
+      <fld name="uninstall">
+        <strval><![CDATA[true]]>
+        </strval>
+      </fld>
+    </row>
+  </table>
+</tableset>
+</tables>

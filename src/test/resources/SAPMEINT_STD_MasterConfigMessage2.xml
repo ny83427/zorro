@@ -1,0 +1,468 @@
+<content>
+	<SAPMEINT_STD_CONFIG>
+		<ME>
+			<MEADMINUserName>SITE_ADMIN</MEADMINUserName>
+			<MEADMINUserPassword>AMU345678</MEADMINUserPassword>
+			<MEEnableOEEReporting>true</MEEnableOEEReporting>
+		</ME>
+		<NW_MII>
+			<XMIIIDOCListener>XMIIIDOC01</XMIIIDOCListener>
+			<NWMIIHost>PVGN50865909A</NWMIIHost>
+			<NWMIIPort>50200</NWMIIPort>
+			<NWMIIPortSSL>50200</NWMIIPortSSL>
+			<NWMII_JDBC_DriverName_ORACLE>VMJDBC</NWMII_JDBC_DriverName_ORACLE>
+			<NWMII_JDBC_DriverVer_ORACLE>11.2</NWMII_JDBC_DriverVer_ORACLE>
+			<NWMII_JDBC_DriverName_SQLSERVER>VMJDBC
+			</NWMII_JDBC_DriverName_SQLSERVER>
+			<NWMII_JDBC_DriverVer_SQLSERVER>4.0</NWMII_JDBC_DriverVer_SQLSERVER>
+			<SAPMEINT_poolName>SAPMEINT</SAPMEINT_poolName>
+			<SAPMEWIP_poolName>SAPMEWIP</SAPMEWIP_poolName>
+			<MIISYSUserName>MESYS</MIISYSUserName>
+			<MIISYSUserPassword>AMU345678</MIISYSUserPassword>
+			<MEINTWS_authenticationMechanismType />
+			<MEINTWS_EndPointUrlPrefix />
+			<NWDBINT>
+				<PoolName>SAPMEINT</PoolName>
+				<Vendor>SQLSERVER</Vendor>
+				<Host>localhost</Host>
+				<Port>1433</Port>
+				<SID />
+				<Instance />
+				<User>AMU_ME_INT</User>
+				<Database>AMU_ME_INT</Database>
+				<Password>AMU345678</Password>
+				<SAPMEINT_Return>
+					<String>PASSED</String>
+					<String />
+					<String>SAPMEINTXA</String>
+					<String>sap.com/SAPMEINTXA</String>
+					<String>VMJDBC</String>
+					<String />
+					<String>vendor_sql</String>
+					<String>jdbc:sqlserver://localhost:1433</String>
+					<String>AMU_ME_INT</String>
+					<String>AMU345678</String>
+					<String />
+					<String>AMU_ME_INT</String>
+					<String>localhost</String>
+					<String>1433</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</SAPMEINT_Return>
+				<URL>jdbc:sqlserver://localhost:1433</URL>
+				<ConnectionString>localhost1433AMU_ME_INTAMU_ME_INT
+				</ConnectionString>
+			</NWDBINT>
+			<NWDBWIP>
+				<PoolName>SAPMEWIP</PoolName>
+				<Host>localhost</Host>
+				<Port>1433</Port>
+				<SID />
+				<Instance />
+				<User>AMU_ME_WIP</User>
+				<Database>AMU_ME_WIP</Database>
+				<Password>AMU345678</Password>
+				<SAPMEWIP_Return>
+					<String>PASSED</String>
+					<String />
+					<String>wipPool</String>
+					<String>sap.com/wipPool</String>
+					<String>VMJDBC</String>
+					<String>com.microsoft.sqlserver.jdbc.SQLServerConnectionPoolDataSource
+					</String>
+					<String>vendor_sql</String>
+					<String>jdbc:sqlserver://localhost:1433</String>
+					<String>AMU_ME_WIP</String>
+					<String>AMU345678</String>
+					<String />
+					<String>AMU_ME_WIP</String>
+					<String>localhost</String>
+					<String>1433</String>
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+					<String />
+				</SAPMEWIP_Return>
+				<URL>jdbc:sqlserver://localhost:1433</URL>
+				<ConnectionString>localhost1433AMU_ME_WIPAMU_ME_WIP
+				</ConnectionString>
+			</NWDBWIP>
+			<XMIIIDOC01>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC01_Return>
+					<String>PASSED</String>
+					<String />
+					<String>ZZ</String>
+					<String>0</String>
+					<String>ZZ</String>
+					<String>ZZ</String>
+					<String>AMU345678</String>
+					<String>EN</String>
+					<String>ZZ</String>
+					<String>ZZ</String>
+					<String>XMIIIDOC</String>
+				</XMIIIDOC01_Return>
+			</XMIIIDOC01>
+			<XMIIIDOC02>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC02_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC02_Return>
+			</XMIIIDOC02>
+			<XMIIIDOC03>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC03_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC03_Return>
+			</XMIIIDOC03>
+			<XMIIIDOC04>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC04_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC04_Return>
+			</XMIIIDOC04>
+			<XMIIIDOC05>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC05_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC05_Return>
+			</XMIIIDOC05>
+			<XMIIIDOC06>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC06_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC06_Return>
+			</XMIIIDOC06>
+			<XMIIIDOC07>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC07_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC07_Return>
+			</XMIIIDOC07>
+			<XMIIIDOC08>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC08_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC08_Return>
+			</XMIIIDOC08>
+			<XMIIIDOC09>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC09_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC09_Return>
+			</XMIIIDOC09>
+			<XMIIIDOC10>
+				<ProgramID />
+				<MaxReaderThreadCount />
+				<Server />
+				<UserName />
+				<UserPassword />
+				<Client />
+				<SysNumber />
+				<Language />
+				<BindingKey />
+				<XMIIIDOC10_Return>
+					<String>PASSED</String>
+					<String />
+					<String />
+					<String>0</String>
+					<String />
+					<String />
+					<String />
+					<String>EN</String>
+					<String />
+					<String />
+					<String>XMIIIDOC</String>
+				</XMIIIDOC10_Return>
+			</XMIIIDOC10>
+			<XMIIIDOC_MaxReaderThreadCount />
+			<XMIIIDOC_BindingKey />
+			<NWMIIIP>127.0.0.1</NWMIIIP>
+		</NW_MII>
+		<ERP>
+			<ERPProgramID>ZZ</ERPProgramID>
+			<ERPName>BU3</ERPName>
+			<ERPServer>ZZ</ERPServer>
+			<ERPUserName>ZZ</ERPUserName>
+			<ERPUserPassword>AMU345678</ERPUserPassword>
+			<ERPClient>ZZ</ERPClient>
+			<ERPSysNumber>ZZ</ERPSysNumber>
+			<ERPLanguage>EN</ERPLanguage>
+		</ERP>
+		<MII>
+			<RULE_chkDOC>true</RULE_chkDOC>
+			<RULE_HP_saveRequestAndResponse>true
+			</RULE_HP_saveRequestAndResponse>
+			<RULE_HP_RetryLimit>3</RULE_HP_RetryLimit>
+			<JCO_Alias>XMIIIDOC01_SAP_JCO</JCO_Alias>
+			<JCO_Description>XMIIIDOC01 SAP JCO</JCO_Description>
+			<JCO_PoolSize>25</JCO_PoolSize>
+			<Credential_ALE_Name>SAPMEINT_ALE</Credential_ALE_Name>
+			<Credential_ALE_UserName>VERPSFI_ALE</Credential_ALE_UserName>
+			<Credential_ALE_UserPassword />
+			<Credential_ME_Name>SAPMEINT_ME_AUTH</Credential_ME_Name>
+			<Credential_ME_UserName>MESYS</Credential_ME_UserName>
+			<Credential_ME_UserPassword />
+			<Credential_EMAIL_Name>SAPMEINT_EMAIL_AUTH</Credential_EMAIL_Name>
+			<Credential_EMAIL_UserName />
+			<Credential_EMAIL_UserPassword />
+			<EmailAddress />
+			<JCO_SSO>false</JCO_SSO>
+			<EmailName>SAPMEINT_EMAIL_AUTH</EmailName>
+			<EmailDescription />
+			<EmailServer />
+			<EmailPort />
+			<EmailConnectionTimeout />
+			<EmailReadTimeout />
+			<EmailProtocol />
+			<SharedMemory_QualityNotificationRequestTransform />
+			<SharedMemory_QRNT_NOTIF_TYPE>F3</SharedMemory_QRNT_NOTIF_TYPE>
+			<SharedMemory_QRNT_CODE>1</SharedMemory_QRNT_CODE>
+			<SharedMemory_QRNT_PRIORITY>2</SharedMemory_QRNT_PRIORITY>
+			<SharedMemory_QRNT_CATALOGUE>D</SharedMemory_QRNT_CATALOGUE>
+			<SharedMemory_QRNT_CODE_GROUP>QM</SharedMemory_QRNT_CODE_GROUP>
+			<SAPMEIntQueueDispatcher>
+				<pattern>0 * * * * *</pattern>
+				<numberOfMessagesToProcess>50</numberOfMessagesToProcess>
+			</SAPMEIntQueueDispatcher>
+			<SAPMEIntEnqueueDispatcher>
+				<pattern>0 * * * * *</pattern>
+				<numberOfMessagesToProcess>200</numberOfMessagesToProcess>
+			</SAPMEIntEnqueueDispatcher>
+			<SAPMEIntQueueMessageCleaner>
+				<pattern>0 * * * * *</pattern>
+				<messageRetentionPeriod>24</messageRetentionPeriod>
+			</SAPMEIntQueueMessageCleaner>
+			<SAPMEIntInboundEnqueueDispatcher>
+				<pattern>0 * * * * *</pattern>
+				<numberOfMessagesToProcess>200</numberOfMessagesToProcess>
+				<messageName>MATMAS</messageName>
+			</SAPMEIntInboundEnqueueDispatcher>
+			<JCO_R3_Name />
+			<JCO_Logon_Group />
+			<JCO_Use_Logon_Group>false</JCO_Use_Logon_Group>
+		</MII>
+		<SAPMEINT>
+			<SAPMEINT_ME_Host />
+			<SAPMEINT_ME_Port />
+			<SAPMEINT_ME_Application_Context>/manufacturing
+			</SAPMEINT_ME_Application_Context>
+			<SAPMEINT_ME_User>MESYS</SAPMEINT_ME_User>
+			<SAPMEINT_InboundDocDirectory>D:/SAPMEINT_STD_OUTPUT
+			</SAPMEINT_InboundDocDirectory>
+			<SAPMEINT_ProcessedDocDirectory>D:/SAPMEINT_STD_OUTPUT/Processed
+			</SAPMEINT_ProcessedDocDirectory>
+			<SAPMEINT_MessageDiscriminatorTxn>Visiprise/ERPShopFloorIntegration/frame/discriminators/BaseDocumentDiscriminator
+			</SAPMEINT_MessageDiscriminatorTxn>
+			<SAPMEINT_MII_DateFormat>MM/dd/yyyy</SAPMEINT_MII_DateFormat>
+			<SAPMEINT_MII_DateTimeFormat>MM/dd/yyyy HH:mm:ss
+			</SAPMEINT_MII_DateTimeFormat>
+			<SAPMEINT_ARCHIVE_PROCESSED_DIR>D:\VERPSFI_OUTPUT\Archive\Processed
+			</SAPMEINT_ARCHIVE_PROCESSED_DIR>
+			<SAPMEINT_ARCHIVE_REQUEST_DIR>D:\VERPSFI_OUTPUT\Archive\Request
+			</SAPMEINT_ARCHIVE_REQUEST_DIR>
+			<SAPMEINT_ARCHIVE_RESPONSE_DIR>D:\VERPSFI_OUTPUT\Archive\Response
+			</SAPMEINT_ARCHIVE_RESPONSE_DIR>
+			<SAPMEINT_OEE_Max_Buckets>12</SAPMEINT_OEE_Max_Buckets>
+			<SAPMEINT_RETRY_RETENTION_PERIOD>30
+			</SAPMEINT_RETRY_RETENTION_PERIOD>
+			<SAPMEINT_CORRELATION_RETENTION_PERIOD>10
+			</SAPMEINT_CORRELATION_RETENTION_PERIOD>
+			<SAPMEINT_ERP_VERSION>EHP5</SAPMEINT_ERP_VERSION>
+		</SAPMEINT>
+		<NW_ME>
+			<NWMEHost>PVGN50865909A</NWMEHost>
+			<NWMEPort>50200</NWMEPort>
+			<NWMEPortSSL>50200</NWMEPortSSL>
+			<NWMEERPWSnames />
+			<NWMESSLEnabled>false</NWMESSLEnabled>
+			<NWMEWSTransport>http</NWMEWSTransport>
+			<MECollaboration />
+			<MEDBVendor />
+			<NWMEGlobal>true</NWMEGlobal>
+			<NWMERemote>true</NWMERemote>
+			<NWMEAdministratorUser>Administrator</NWMEAdministratorUser>
+			<NWMEAdministratorPassword />
+			<NWMEQICharacterstics>true</NWMEQICharacterstics>
+		</NW_ME>
+		<PLANT>
+			<PLANT_Name>1000</PLANT_Name>
+			<PLANT_ERPServer />
+			<PLANT_MEHostUrl />
+			<PLANT_ERPTimeZone>Europe/Berlin</PLANT_ERPTimeZone>
+			<PLANT_METimeZone>Asia/Shanghai</PLANT_METimeZone>
+			<PLANT_Language>E</PLANT_Language>
+			<PLANT_DirectiveTransportParameter>dataSource=jdbc/jts/SAPMEINTXA
+			</PLANT_DirectiveTransportParameter>
+			<PLANTList>
+				<String />
+			</PLANTList>
+		</PLANT>
+		<SELECT>
+			<editERP>false</editERP>
+			<editME>false</editME>
+			<newERP>true</newERP>
+			<newME>true</newME>
+			<newPLANT>true</newPLANT>
+			<editPLANT>false</editPLANT>
+		</SELECT>
+	</SAPMEINT_STD_CONFIG>
+</content>

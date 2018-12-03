@@ -1,0 +1,18 @@
+SAPDBHOST = PVGN50865909A
+j2ee/dbtype = ora
+j2ee/dbname = ORA
+j2ee/dbhost = PVGN50865909A
+SAPSYSTEMNAME = ORA
+OS_UNICODE = uc
+SAPGLOBALHOST = PVGN50865909A
+system/type = J2EE
+SAPFQDN = apj.global.corp.sap
+SAPLOCALHOSTFULL = $(SAPLOCALHOST).$(SAPFQDN)
+service/protectedwebmethods = SDEFAULT
+#-----------------------------------------------------------------------
+# SAP Central Service Instance for J2EE
+#-----------------------------------------------------------------------
+j2ee/scs/host = PVGN50865909A
+j2ee/scs/system = 03
+j2ee/ms/port = 3903
+icm/HTTP/mod_0 = PREFIX=/,FILE=$(DIR_GLOBAL)/security/data/icm_filter_rules.txt

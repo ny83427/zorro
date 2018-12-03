@@ -1,0 +1,8 @@
+<content>
+	<NWParameters>
+		<JspDebugSupport>true</JspDebugSupport>
+		<FCAServerThreadCount>50</FCAServerThreadCount>
+		<transactionService>300</transactionService>
+		<classPathResolver>300</classPathResolver>
+	</NWParameters>
+</content>
