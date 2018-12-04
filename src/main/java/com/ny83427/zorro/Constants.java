@@ -41,15 +41,7 @@ public class Constants {
 	 * Scenario: We will assign SAP_XMII_Administrator role to NWA administrator so that MEINT/MEINTCTC can be deployed successfully
 	 */
 	public static final String SCENARIO_XMII_ROLE = "ASSIGN_XMII_ADMIN_ROLE";
-	/**
-	 * Scenario: We will execute 2 CTCs for ME
-	 */
-	public static final String SCENARIO_MECTC_1 = "MECTC1";
-	/**
-	 * Scenario: We will execute the left 2 CTCs for ME and MEINT after NetWeaver restart
-	 */
-	public static final String SCENARIO_MECTC_2 = "MECTC2";
-	
+
 	public static final String DBTYPE_MAXDB = "ADA";
 	public static final String DBTYPE_SQLSERVER = "MSS";
 	public static final String DBTYPE_ORACLE = "ORA";

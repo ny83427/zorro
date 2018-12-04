@@ -3,6 +3,7 @@ package com.ny83427.zorro.handlers;
 import com.ny83427.zorro.Constants;
 import com.ny83427.zorro.ContextInfo;
 import com.ny83427.zorro.Handler;
+import lombok.Setter;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -21,7 +22,7 @@ public class AdjustInifile implements Handler {
     /**
      * computer name varies, to pass the test we need a workaround
      */
-    private boolean testMode = false;
+    @Setter private boolean testMode = false;
     /**
      * Joker's computer name that will replace template in test mode
      */
