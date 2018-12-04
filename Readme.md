@@ -10,10 +10,10 @@ Basically you need to finish all these tasks in sequence successfully to start d
 You may read the [task list](documents/task-list.md) for fun and a brief [implementation notes](documents/impl-notes.docx) to kill time. You may also check the [original visio document](documents/workflow.vsdx) for more details.
 
 ## Why the hack you call this project Zorro?
-I have no other choice, man. Customized program name must start with 'Y' or 'Z' according to SAP naming convention, I have used a wonderful name [_**YNOT**_](https://github.com/ny83427/ynot) and had to find a meaningful name starting with 'Z'. The SwordMan with mask came to my mind suddenly, so it's done. Don't argue with me anymore man, I know you love the legend much.
+I have no other choice, man. Customized program name must start with 'Y' or 'Z' according to SAP naming convention, I have used a wonderful name [_**YNOT**_](https://github.com/ny83427/ynot) and had to find a meaningful name starting with 'Z'. The Swordsman with mask came to my mind suddenly, so it's done. Don't argue with me anymore man, I know you love the legend much.
 
 ## How the hack can I use Zorro?
-You just can't, man. There are too many installation files you are not able to get legally unless you become a SAP employee and work in ME/MII teams - in that case you might be able to use a evolved version improved by someone, or it just disappeared as no one maintain it anymore.
+You just can't, man. There are too many installation files you are not able to get legally unless you become a SAP employee and work in ME/MII teams, so they are not here for sure. You might be able to use a evolved version improved by someone, or it just disappeared as no one maintain it anymore if in the future you work for SAP. Don't be upset. Happy coding!
 
 ## Then why do you open source here?
 Why not? You cannot use Zorro but also you don't need to use Zorro, right? However, you may have some idea about SAP NetWeaver and its Java AS development, and what's more important, you would have an example of automate everything you can, and a spirit of JUST DO IT.
