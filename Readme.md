@@ -3,7 +3,7 @@
 ## What the hack does Zorro do?
 Zorro setup ME/MII development environment based on SAP NetWeaver JAVA AS for you. With one click, within one hour, otherwise it would spent you 2-5 days to set up. You may get to know how long this installation process would be, and how complex and difficult it is to write your first line of code for SAP ME/MII from the resized flowchart image in the below.
 
-![](documents/workflow-small.png)
+<p align="center"><img src="documents/workflow-small.png"/></p>
 
 Basically you need to finish all these tasks in sequence successfully to start development, which would be a nightmare actually.
 
@@ -26,3 +26,22 @@ When I look back on those days and the scripts, code I written, I can find many 
 Meanwhile, if I know Selenium or JXBrowser at that time, Zorro would reach the promise land finally, as there are some CTC tasks difficult to simulate using Jsoup/HttpClient but relatively easy in WebDriver. I wish I can know them earlier, because these CTC tasks still need to be performed manually before I leave SAP. However I have no regret, because I had tried my best. I cannot make Zorro better anymore, at that time.
 
 S.D.G
+
+## License
+Zorro is released under the [Apache 2.0 license](license.txt).
+
+```
+Copyright 2018 Meng(Nathanael) Yang
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
